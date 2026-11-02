@@ -1,1 +1,161 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Raleigh</title>
+    <meta
+      name="description"
+      content="A family-friendly Raleigh guide with weekend ideas for parks, museums, and food spots."
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">Raleigh Local Guide</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html" class="active">Home</a>
+          <a href="page2.html">Things to Do</a>
+          <a href="page3.html">Food &amp; Dining</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Welcome to Raleigh</p>
+            <h1>Plan an easy, fun getaway in the Triangle.</h1>
+            <p>
+              Raleigh is a welcoming city for families and weekend visitors, with
+              easy-to-plan outings, beautiful parks, hands-on museums, and plenty
+              of local flavor to enjoy together.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="page2.html">Things to do</a>
+              <a class="button secondary" href="page3.html">Taste the Triangle</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img
+              src="images/all-are-welcome-raleigh-nc-2-orange-cat-art.jpg"
+              alt="Art-inspired welcome sign for Raleigh"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="day-picker" aria-labelledby="day-picker-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Your Raleigh day, your way</p>
+            <h2 id="day-picker-title">What sounds fun today?</h2>
+            <p>Pick a vibe and get an easy idea for your visit.</p>
+          </div>
+
+          <div class="vibe-options" role="group" aria-label="Choose an activity vibe">
+            <button class="vibe-button" type="button" data-vibe="outdoors" aria-pressed="false">
+              <span aria-hidden="true">🌳</span> Outside time
+            </button>
+            <button class="vibe-button" type="button" data-vibe="curious" aria-pressed="false">
+              <span aria-hidden="true">🦕</span> Curious minds
+            </button>
+            <button class="vibe-button" type="button" data-vibe="hungry" aria-pressed="false">
+              <span aria-hidden="true">🍴</span> Hungry crew
+            </button>
+          </div>
+
+          <div class="vibe-result" aria-live="polite" aria-atomic="true">
+            <h3 id="vibe-title">Choose your mood to get started</h3>
+            <p id="vibe-description">We’ll suggest a Raleigh stop that fits your day.</p>
+            <a class="button primary" id="vibe-link" href="page2.html" hidden>Explore the guide</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Why families love it</p>
+            <h2>Easy adventures for all ages.</h2>
+          </div>
+
+          <div class="card-grid">
+            <article class="info-card">
+              <h3>Parks and play</h3>
+              <p>
+                Families can enjoy relaxed outdoor fun, stroller-friendly paths, and
+                plenty of open space for a low-stress afternoon.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <h3>Museums and learning</h3>
+              <p>
+                Interactive exhibits, hands-on discovery, and art-filled stops make
+                Raleigh a great place to explore together.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <h3>Good food nearby</h3>
+              <p>
+                After a day outdoors, you can grab comfort food, coffee, or a casual
+                dinner in a city that loves great local flavor.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-band">
+        <div class="container feature-grid">
+          <div>
+            <p class="eyebrow">Popular spots</p>
+            <h2>Easy stops for a memorable trip.</h2>
+          </div>
+          <ul class="check-list">
+            <li>NC Museum of Natural Sciences for interactive exhibits and curious minds</li>
+            <li>NCMA Museum Park for outdoor art and a relaxed scenic walk</li>
+            <li>Pullen Park for family-friendly rides, playgrounds, and lakeside paths</li>
+            <li>Downtown Raleigh for live music, casual dining, and evening fun</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="visit-plan">
+        <div class="container two-column">
+          <div>
+            <p class="eyebrow">Plan a day</p>
+            <h2>Simple ideas for first-time visitors.</h2>
+            <ol class="plan-list">
+              <li>Start with a museum visit or a relaxed stroll through a park.</li>
+              <li>Take a midday break for lunch or a coffee stop nearby.</li>
+              <li>Spend the afternoon exploring downtown or a local neighborhood.</li>
+            </ol>
+          </div>
+
+          <aside class="mini-panel">
+            <h3>Quick tips</h3>
+            <ul>
+              <li>Best for families: parks and hands-on museums</li>
+              <li>Best for weekends: easy downtown outings</li>
+              <li>Good for: low-stress, memorable day trips</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>Raleigh Local Guide</p>
+        <p>Made for exploring the city one neighborhood at a time.</p>
+      </div>
+    </footer>
+    <script src="scripts/home.js" defer></script>
+  </body>
+</html>
