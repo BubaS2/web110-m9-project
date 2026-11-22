@@ -46,3 +46,4 @@ vibeButtons.forEach((button) => {
     vibeLink.hidden = false;
   });
 });
+
